@@ -246,6 +246,7 @@ public class MaterialController {
         }
     }
 
+    // 学生自己撤销一条尚未审核的学分申请
     @RequestMapping("/checkAuthenticationNotPassStudent")
     @RequiresRoles("student")
     public ResponseEntity checkAuthenticationNotPassStudent(String id, HttpServletRequest req) {

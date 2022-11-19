@@ -159,9 +159,9 @@ public interface BasicInfoMapper {
             "</script>")
     Integer readXlsFile(List<HashMap<String, Object>> list);
 
-    // 教学辅导员上传学生列表excel文件直接存入数据库
+    // 将学生名单存入学生信息表
     @Insert("<script>" +
-            "insert ignore into user_info  values" +
+            "insert ignore into user_info values" +
             "<foreach collection = \"list\" item=\"item\" index=\"index\" separator=\",\">" +
             "(#{item.userid},#{item.name},#{item.major_code},#{item.class},#{item.year})" +
             "</foreach>" +
@@ -176,7 +176,7 @@ public interface BasicInfoMapper {
     @Insert("<script>" +
             "insert ignore into users values" +
             "<foreach collection=\"list\" item=\"item\" index=\"index\" separator=\",\">" +
-            "(#{item.userid},#{item.userid},'student')" +
+            "(#{item.userid},UPPER(md5(#{item.userid})),'student')" +
             "</foreach>" +
             "</script>")
     int addStudentList(List<HashMap<String, Object>> list);

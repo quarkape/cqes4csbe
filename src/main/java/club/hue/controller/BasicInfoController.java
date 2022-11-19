@@ -367,7 +367,7 @@ public class BasicInfoController {
         // 这里注意一定要用\\.来分割才行，因为在java的正则表达式中，点号表示任意字符
         String[] fileNameParts = fileName.split("\\.");
         String fileFinalName = System.currentTimeMillis() + "." + fileNameParts[fileNameParts.length - 1];
-        String filePath = basePath + "student\\";
+        String filePath = basePath + "students\\";
         File tempFile = new File(filePath, fileFinalName);
         boolean isSucceed = false;
         int res = 0;
