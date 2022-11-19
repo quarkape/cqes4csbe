@@ -1,7 +1,8 @@
 # CQES4CS V1.0.0 Front End
-=======
 
-![img]()
+![banner](https://user-images.githubusercontent.com/43498577/202853539-aced922a-e6ef-406e-91be-865426825919.png)
+
+---
 
 💼  一个基于规则配置的综合素质评价系统，助力高校更方便、更高效的开展学生综合素质评价工作。
 
@@ -13,9 +14,9 @@
 
 ---
 
-## :pushpin: ​后端项目地址
+## :pushpin: ​前端项目地址
 
-[后端项目+SQL+API文档](https://github.com/quarkape/CQES4CS_backend.git)
+[前端项目](https://github.com/quarkape/CQES4CS.git)
 
 ---
 
@@ -59,7 +60,7 @@
 
 | QQ   | 微信 |
 | ---- | ---- |
-| 图片 | 图片 |
+|![8457742ec93ccd14d3c485ae8e512bd](https://user-images.githubusercontent.com/43498577/202853562-63b65f78-b626-45c8-befa-0c105f705da7.jpg)| ![4e4070769bff11812f46bb075f35641](https://user-images.githubusercontent.com/43498577/202853573-65624f1a-28aa-464f-b854-6051eb20b5c6.jpg)|
 
 
 
