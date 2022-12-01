@@ -141,7 +141,7 @@
 
 ## :pushpin: ​前端项目地址
 
-[前端项目](https://github.com/quarkape/CQES4CS.git)
+[前端项目](https://github.com/quarkape/cqes4cs.git)
 
 ---
 
