@@ -20,9 +20,8 @@
 
 - Node.js，[你可以参照这篇文章安装与配置Node.js](https://www.runoob.com/nodejs/nodejs-install-setup.html)
 
-- Maven，[你可以参照这篇文章安装与配置Maven并了解如何在IDEA中使用](https://blog.csdn.net/pan_junbiao/article/details/104264644)
-
   **:herb: 安装完成后，redis和mysql需要进行配置，具体配置参数请点击[mysql配置](#mysqlconf)和[redis配置](#redisconf)，保证配置与项目一致**
+
 
 ---
 
