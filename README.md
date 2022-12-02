@@ -6,7 +6,7 @@
 
 💼  一个基于规则配置的综合素质评价系统，助力高校更方便、更高效的开展学生综合素质评价工作。
 
-:raised_hands: 如果需要帮助请联系Q244627905
+:raised_hands: 如果需要帮助请联系Q2446247905
 
 ---
 
@@ -67,7 +67,7 @@
 
    ```yaml
    datasource:
-   	# 用户名为root
+       # 用户名为root
        username: root
        # 密码为root
        password: root
@@ -80,13 +80,13 @@
 
 ---
 
-### <span id="mysqlconf">3、Redis配置说明</span>
+### <span id="redisconf">3、Redis配置说明</span>
 
 1. 项目要求的redis配置可以在：`cqes4cs\src\main\resources\application.yml`配置文件中找到：
 
    ```yaml
    redis:
-   	# 端口6379
+       # 端口6379
        port: 6379
        # 密码kkty
        password: kkty
