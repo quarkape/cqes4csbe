@@ -1,4 +1,4 @@
-# CQES4CS V1.0.0 Front End
+# CQES4CS V1.0.0
 
 ![banner](https://user-images.githubusercontent.com/43498577/202853353-1f9b97ee-b7ac-4a55-9fc8-f5c2d2319953.png)
 
@@ -7,6 +7,12 @@
 💼  一个基于规则配置的综合素质评价系统，助力高校更方便、更高效的开展学生综合素质评价工作。
 
 :raised_hands: 如果需要帮助请联系Q2446247905
+
+---
+
+## :chart_with_downwards_trend:  安装配置【推荐】
+
+[点击观看安装配置视频教程](https://www.bilibili.com/video/BV1KG4y1Z7Pd?share_source=copy_web)​
 
 ---
 
@@ -61,7 +67,7 @@
 
 3. 导入数据后，切换到数据库cqes4cs中，查询users表，看是否有数据，如果有的话说明导入成功
 
-4. 你可以借助MySQL WorkBench或者Navicat对数据库进行管理
+4. **如果你使用的是phpstudy+mysql workbench，你可以观看视频教程，了解如何使用mysql workbench将数据快捷导入到数据库中**
 
 5. 项目要求的mysql配置可以在：`cqes4cs\src\main\resources\application.yml`配置文件中找到：
 
@@ -77,6 +83,8 @@
    ```
 
    请确保电脑上面的相关配置与项目中的配置保持一致（可以改电脑上的配置，也可以改配置文件）
+
+6. 安装MySQL之后，需要关闭MySQL的`only_full_group_by`功能，[你可以参考这篇文章关闭MySQL的此项功能](https://www.jianshu.com/p/0e2a676a189c)
 
 ---
 
@@ -95,12 +103,16 @@
 
    请确保电脑上面的相关配置与项目中的配置保持一致（可以改电脑上的配置，也可以改配置文件）
 
+---
+
 ### 4、后端项目安装、运行与部署
 
 1. 下载项目压缩包至本地解压，或者使用`git clone https://github.com/quarkape/cqes4csbe.git`克隆项目
 2. 进入项目目录，打开命令窗口，执行`mvn dependency:copy-dependencies`，会开始下载后端项目所需要的所有依赖，等待所有依赖下载完成
 3. 进入项目目录，打开命令窗口，执行`mvn spring-boot:run`，开始运行后端项目
 4. 如果需要部署该项目，你需要对后端项目进行打包，进入项目目录，打开命令窗口，执行`mvn package`对项目进行打包。默认打包为jar包，如果需要更换为war包，请自行搜索相关流程。
+
+---
 
 ### 5、静态资源的部署
 
@@ -132,15 +144,9 @@
 
 ---
 
-## :chart_with_downwards_trend:  系统演示
-
-[安装配置演示视频](https://www.bilibili.com/video/BV1KG4y1Z7Pd?share_source=copy_web)​
-
----
-
 ## :pushpin: ​前端项目地址
 
-[前端项目](https://github.com/quarkape/cqes4cs.git)
+[点击跳转到前端项目](https://github.com/quarkape/cqes4cs.git)
 
 ---
 
