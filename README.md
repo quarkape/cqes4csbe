@@ -12,7 +12,7 @@
 
 ## :chart_with_downwards_trend:  安装配置【推荐】
 
-[点击观看安装配置视频教程](https://www.bilibili.com/video/BV1KG4y1Z7Pd?share_source=copy_web)​
+[点击观看安装配置视频教程](https://www.bilibili.com/video/BV1KG4y1Z7Pd?share_source=copy_web)
 
 ---
 
@@ -147,6 +147,12 @@
 ## :pushpin: ​前端项目地址
 
 [点击跳转到前端项目](https://github.com/quarkape/cqes4cs.git)
+
+---
+
+## :zap: 后端项目地址
+
+[点击跳转到后端项目(包含数据文件、接口文档和静态资源文档)](https://github.com/quarkape/cqes4csbe.git)
 
 ---
 
