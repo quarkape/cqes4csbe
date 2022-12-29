@@ -67,7 +67,7 @@
    # 使用数据库cqes4cs
    use cqes4cs;
    # 设置数据库编码方式
-   set name utf8;
+   set names utf8;
    # 下面的source后面是sql文件的位置，例如是G:\Projects\IDEA\cqes4cs\cqes4cs.sql的话就是：
    source "G:\Projects\IDEA\cqes4cs\cqes4cs.sql"
    ```
